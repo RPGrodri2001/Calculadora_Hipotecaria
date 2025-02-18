@@ -42,7 +42,7 @@ function processContactForm(e) {
 function listarcontactos() {
     let dinmicTable = "";
     //cabecera de la tabla
-    dinmicTable += "<table class='table' ";
+    dinmicTable += "<table> ";
     dinmicTable += "<tr>";
     dinmicTable += "<th>ID</th>";
     dinmicTable += "<th>Nombres</th>";
